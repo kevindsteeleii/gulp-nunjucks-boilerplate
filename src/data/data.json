@@ -1,0 +1,4 @@
+{
+  "sampleObj": "sample value",
+  "sampleArray": ["val1", "val2", "val3"]
+}
