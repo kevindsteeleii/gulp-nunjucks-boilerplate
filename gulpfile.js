@@ -22,10 +22,5 @@ function buildFromNJK() {
   .pipe(gulp.dest('dist'))
 }
 
-function editJSON() {
-  
-}
-
-
 
 exports.sampleSetup = series(buildFromNJK);
