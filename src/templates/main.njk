@@ -1,0 +1,7 @@
+{% set arr = sampleArray %}
+{% import "./macro/listItem.njk" as macros %}
+<ul>
+  {% for i in range(0, arr | length) %}
+    {{ macros.listItem( arr[i], i) }}
+  {% endfor %}
+</ul>

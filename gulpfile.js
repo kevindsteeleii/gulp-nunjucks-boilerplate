@@ -1,4 +1,6 @@
 const gulp = require("gulp"); 
+const series = gulp.series;
+const parallel = gulp.parallel;
 const nunjucksRender = require('gulp-nunjucks-render');
 const data = require("gulp-data");
 const beautify = require("gulp-beautify");
